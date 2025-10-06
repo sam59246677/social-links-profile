@@ -38,19 +38,21 @@ h1, h2, h3, h4, h5, h6 {
 /* Name, Location, Bio */
 .name {
   
- font-family:Inter-Bold;
+ font-family:'Inter-Bold';
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: 0.3rem;
 }
 
 .location {
+   font-family:'Inter-Regular';
   color: hsl(75, 94%, 57%);
   
   margin-bottom: 0.5rem;
 }
 
 .bio {
+   font-family:'semiBold';
   font-style: italic;
   color: hsl(0, 0%, 80%);
   margin-bottom: 1rem;
