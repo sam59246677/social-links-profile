@@ -1,0 +1,74 @@
+/* Body Dark Mode */
+body.dark-mode {
+  background-color: hsl(0, 0%, 15%);
+  color: white;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lexend', sans-serif;
+}
+
+
+/* Profile Card */
+.profile-card {
+  width: 90%;
+  max-width: 350px;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Avatar */
+.avatar {
+  width: 80%;
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1rem auto;
+  background-color: hsl(0, 0%, 20%);
+}
+
+/* Name, Location, Bio */
+.name {
+  
+ font-family:Inter-Bold;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  
+  margin-bottom: 0.5rem;
+}
+
+.bio {
+  font-style: italic;
+  color: hsl(0, 0%, 80%);
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+}
+
+.bg-github { background-color: #333; }
+.bg-frontend { background-color: #007bff; }
+.bg-linkedin { background-color: #0e76a8; }
+.bg-twitter { background-color: #1da1f2; }
+.bg-instagram { background-color: #e1306c; }
+
+/* Responsive font sizes */
+@media (max-width: 576px) {
+  .name { font-size: 1.1rem; }
+  .bio { font-size: 0.9rem; }
+}
